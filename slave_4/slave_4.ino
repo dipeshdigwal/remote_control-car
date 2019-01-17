@@ -16,12 +16,12 @@ void loop() {
   state = 0;
  }
  else if (state == '0') {
-  digitalWrite(ledPin, LOW); // LED ON
+  digitalWrite(ledPin, LOW); // LED OFF
   state = 0;
  }
  // Reading the potentiometer
- /*potValue = analogRead(A0);
+ potValue = analogRead(A0);
  int potValueMapped = map(potValue, 0, 1023, 0, 255);
  Serial.write(potValueMapped); // Sends potValue to servo motor
- delay(10);*/
+ delay(10);
 }
